@@ -24,12 +24,12 @@ function Hero() {
       <div className="flex justify-center relative my-20 z-10 ">
         <div className="max-w-[89] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+          Decentralized, For Lucknow
           </h2>
-          <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl " words="Transforming Concepts into Seamless Experiences"/>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"> Hi, I&apos;m Abhishek, a Web Developer based in Lucknow India</p>
-          <a href="#about">
-            <MagicButton title="Show my work" icon={ <FaLocationArrow/>} position="right"/>
+          <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl " words="Welcome at Lucknow DAO"/>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">It's your gateway to decentralized events and collaborations across the city.</p>
+          <a href="https://chat.whatsapp.com/ImWVCjt8tPF5i7k1f7IIFo">
+            <MagicButton title="Start Building" icon={ <FaLocationArrow/>} position="right" />
           </a>
         </div>
       </div>
