@@ -163,6 +163,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
       startAnimation();
     }
   }, [globeData]);
+  
 
   const startAnimation = () => {
     if (!globeRef.current || !globeData) return;

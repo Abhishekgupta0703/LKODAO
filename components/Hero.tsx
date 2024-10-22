@@ -27,7 +27,7 @@ function Hero() {
           Decentralized, For Lucknow
           </h2>
           <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl " words="Welcome at Lucknow DAO"/>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">It's your gateway to decentralized events and collaborations across the city.</p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">It&apos;s your gateway to decentralized events and collaborations across the city.</p>
           <a href="https://chat.whatsapp.com/ImWVCjt8tPF5i7k1f7IIFo">
             <MagicButton title="Start Building" icon={ <FaLocationArrow/>} position="right" />
           </a>
