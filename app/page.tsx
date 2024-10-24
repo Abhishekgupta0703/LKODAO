@@ -19,7 +19,6 @@ export default function Home() {
         <RecenProjects/>
         <Clients/>
         <Experience />
-        <Approach/>
         <Footer/> 
       </div>
     </main>

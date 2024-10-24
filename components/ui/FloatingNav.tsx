@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
+import { FaHome, FaInfo, FaPhone } from "react-icons/fa";
 
 export const FloatingNav = ({
   navItems,
@@ -16,7 +17,7 @@ export const FloatingNav = ({
   navItems: {
     name: string;
     link: string;
-    icon?: JSX.Element;
+    icon?: string;
   }[];
   className?: string;
 }) => {
@@ -40,6 +41,11 @@ export const FloatingNav = ({
       }
     }
   });
+  const icons: { [key: string]: JSX.Element } = {
+    home: <FaHome />,
+    info: <FaInfo />,
+    phone: <FaPhone />,
+  };
 
   return (
     <AnimatePresence mode="wait">
@@ -61,6 +67,7 @@ export const FloatingNav = ({
         )}
       >
         {navItems.map((navItem: any, idx: number) => (
+          
           <Link
             key={`link=${idx}`}
             href={navItem.link}
@@ -68,8 +75,8 @@ export const FloatingNav = ({
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
           >
-            <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="hidden sm:block text-sm">{navItem.name}</span>
+            {/* <span className="block sm:hidden">  {navItem.icon && icons[navItem.icon]}</span> */}
+            <span className=" sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
         

@@ -1,0 +1,35 @@
+.scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+@keyframes moveSpotlight {
+  0% {
+    transform: translateX(-1vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+/* Apply animation to the spotlights */
+.animated-spotlight {
+  animation: moveSpotlight 1s linear infinite;
+}
+
+.animated-spotlight-1 {
+  animation-duration: 20s;
+}
+
+.animated-spotlight-2 {
+  animation-duration: 25s;
+  animation-delay: 5s;
+}
+
+.animated-spotlight-3 {
+  animation-duration: 30s;
+  animation-delay: 10s;
+}

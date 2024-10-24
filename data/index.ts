@@ -1,14 +1,14 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Home", link: "/", icon:"home"},
+  { name: "Events", link: "#projects",icon:"info" },
+  { name: "Gallery", link: "/gallery",icon :"phone"},
+  { name: "Contacts", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -103,35 +103,41 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lucknow DAO has created a space where learning and building happen simultaneously. It's amazing to be a part of such a forward-thinking community, and it's exciting to see how it's driving Web3 adoption locally and globally",
+      "Lucknow DAO has created a space where learning and building happen simultaneously. It's amazing to be a part of such a forward-thinking community, and it's exciting to see how it's driving Web3 adoption locally and globally.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    image: "/images/michael-johnson.jpg", // Example image URL
   },
   {
     quote:
       "Lucknow DAO isn't just a community; it's a movement. The support, networking opportunities, and knowledge sharing are unmatched. It's incredible to see how this DAO is fostering the Web3 ecosystem in India and beyond.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Ayesha Sharma",
+    title: "Blockchain Developer at Cryptex Labs",
+    image: "/images/ayesha-sharma.jpg", // Example image URL
   },
   {
     quote:
       "What I love about Lucknow DAO is the diversity of talent and perspectives. Whether you're a developer, marketer, or entrepreneur, there's a place for you here. It's a vibrant space to innovate and grow in the decentralized world.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Ravi Kapoor",
+    title: "Founder of BlockForge Innovations",
+    image: "/images/ravi-kapoor.jpg", // Example image URL
   },
   {
     quote:
       "Being a part of Lucknow DAO has been a game-changer for me. I've connected with brilliant minds in the Web3 space, learned cutting-edge tech, and collaborated on exciting projects. It's the perfect community for anyone looking to grow in the decentralized world!",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Anita Verma",
+    title: "Product Manager at DAO Syndicate",
+    image: "/images/anita-verma.jpg", // Example image URL
   },
   {
     quote:
       "I joined Lucknow DAO to explore Web3, but I ended up finding so much more—mentorship, collaboration opportunities, and a true sense of belonging. This community has empowered me to take my Web3 journey to the next level.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Siddharth Malhotra",
+    title: "Full-Stack Developer at EtherWorks",
+    image: "/images/siddharth-malhotra.jpg", // Example image URL
   },
 ];
+
 
 export const companies = [
   {
@@ -213,3 +219,14 @@ export const socialMedia = [
     link:"https://x.com/Lucknow_DAO?t=b8BLcYqMNgSDXXnGRkKEDw&s=09"
   },
 ];
+export const galleryImages= [
+  "./b1.svg",
+  "./b4.svg",
+  "./b5.svg",
+  "/Base.jpg",
+  "./b1.svg",
+  "./b4.svg",
+  "./b5.svg",
+  "/Base.jpg"
+ ];
+ 
