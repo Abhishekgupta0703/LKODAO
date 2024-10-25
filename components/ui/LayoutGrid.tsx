@@ -29,6 +29,11 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "h-96")}>
           <motion.div
+           initial={{ opacity: 0, translateX:"100%" }}
+           whileInView={{ opacity: 1 ,translateX:0 , transitionDuration:"500ms", msTransitionTimingFunction:"ease"}}
+           viewport={{ once: false, }}
+
+          
             onClick={() => handleClick(card)}
             className={cn(
               card.className,
