@@ -104,38 +104,38 @@ export const testimonials = [
   {
     quote:
       "Lucknow DAO has created a space where learning and building happen simultaneously. It's amazing to be a part of such a forward-thinking community, and it's exciting to see how it's driving Web3 adoption locally and globally.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    image: "/images/michael-johnson.jpg", // Example image URL
+    name: "Prakhar Ojha",
+    title: "Blockchain developer",
+    image: "clients.jpg", // Example image URL
   },
   {
     quote:
       "Lucknow DAO isn't just a community; it's a movement. The support, networking opportunities, and knowledge sharing are unmatched. It's incredible to see how this DAO is fostering the Web3 ecosystem in India and beyond.",
-    name: "Ayesha Sharma",
-    title: "Blockchain Developer at Cryptex Labs",
-    image: "/images/ayesha-sharma.jpg", // Example image URL
+    name: "Aditya Kumar",
+    title: "Avax Ambassador",
+    image: "clients.jpg", // Example image URL
   },
   {
     quote:
       "What I love about Lucknow DAO is the diversity of talent and perspectives. Whether you're a developer, marketer, or entrepreneur, there's a place for you here. It's a vibrant space to innovate and grow in the decentralized world.",
-    name: "Ravi Kapoor",
-    title: "Founder of BlockForge Innovations",
-    image: "/images/ravi-kapoor.jpg", // Example image URL
+    name: "Harpreet Singh",
+    title: "Devrel",
+    image: "clients.jpg", // Example image URL
   },
   {
     quote:
       "Being a part of Lucknow DAO has been a game-changer for me. I've connected with brilliant minds in the Web3 space, learned cutting-edge tech, and collaborated on exciting projects. It's the perfect community for anyone looking to grow in the decentralized world!",
-    name: "Anita Verma",
-    title: "Product Manager at DAO Syndicate",
-    image: "/images/anita-verma.jpg", // Example image URL
+    name: "Pragya Singh",
+    title: " Business developer",
+    image: "clients.jpg", // Example image URL
   },
-  {
-    quote:
-      "I joined Lucknow DAO to explore Web3, but I ended up finding so much more—mentorship, collaboration opportunities, and a true sense of belonging. This community has empowered me to take my Web3 journey to the next level.",
-    name: "Siddharth Malhotra",
-    title: "Full-Stack Developer at EtherWorks",
-    image: "/images/siddharth-malhotra.jpg", // Example image URL
-  },
+  // {
+  //   quote:
+  //     "I joined Lucknow DAO to explore Web3, but I ended up finding so much more—mentorship, collaboration opportunities, and a true sense of belonging. This community has empowered me to take my Web3 journey to the next level.",
+  //   name: "Siddharth Malhotra",
+  //   title: "Full-Stack Developer at EtherWorks",
+  //   image: "/images/siddharth-malhotra.jpg", // Example image URL
+  // },
 ];
 
 
@@ -204,10 +204,11 @@ export const workExperience = [
 ];
 
 export const socialMedia = [
-  // {
-  //   id: 1,
-  //   img: "/git.svg",
-  // },
+  {
+    id: 1,
+    img: "/telegram.svg",
+    link:"https://t.me/Lucknow_DAO"
+  },
   {
     id: 2,
     img: "/twit.svg",
@@ -245,7 +246,7 @@ export const galleryEvents = [
     id: 2,
     title: "Avalanche Game Night",
     description: "A fun-filled gaming night featuring play-to-earn games built on Avalanche. Experience the future of decentralized gaming and connect with other enthusiasts.",
-    image: "g1.jpeg",
+    image: "Base.jpg",
     className: "col-span-1",
   },
   {
