@@ -4,6 +4,7 @@
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 import Image from "next/image";
+import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProjects = () => {
   return (
@@ -12,10 +13,10 @@ const RecentProjects = () => {
         Some Of Our{" "}
         <span className="text-purple">Past Events</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 md:gap-16 gap-5 mt-10">
         {projects.map((item) => (
           <div
-            className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm:h-[27rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >
             <PinContainer
@@ -32,15 +33,15 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 bottom-0 object-contain"
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-center">
                 {item.title}
               </h1>
 
-              <p
+              {/* <p
                 className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
@@ -48,9 +49,9 @@ const RecentProjects = () => {
                 }}
               >
                 {item.des}
-              </p>
+              </p> */}
 
-              <div className="flex items-center justify-between mt-7 mb-3">
+              {/* <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   {item.iconLists.map((icon, index) => (
                     <div
@@ -65,13 +66,13 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                {/* <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div> */}
-              </div>
+                </div>
+              </div> */}
             </PinContainer>
           </div>
         ))}

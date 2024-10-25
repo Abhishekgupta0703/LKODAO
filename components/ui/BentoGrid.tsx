@@ -65,7 +65,7 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: "rgb(4,7,29)",
+        background:  id === 1 ? "none" : "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)"
       }}
@@ -79,7 +79,7 @@ export const BentoGridItem = ({
               className={cn(
                 imgClassName,
                 "object-cover object-center ",
-                `${id == 1 && "w-1/2 mx-auto"}`
+                `${id == 1 && "w-3/4 mx-auto mt-10"}`
               )}
             />
           )}

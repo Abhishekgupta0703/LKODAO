@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -27,7 +28,7 @@ const Footer = () => {
         </p>
         <a href="https://x.com/suraj_sharma14?t=vbPj3PEyf6eW_qZlQJZlPw&s=09">
           <MagicButton
-            title="Let's get in touch"
+            title="Connect with Lead"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -57,12 +58,13 @@ const Footer = () => {
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
-            <div
+            <Link 
+            href={info.link}
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
               <img src={info.img} alt="icons" width={20} height={20} />
-            </div>
+            </Link>
           ))}
         </div>
       </div>

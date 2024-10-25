@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building LKO Network",
-    description: "The Inside Scoop",
+    title: "WEB3 Starts Here!",
+    description: "In Lucknow",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -230,3 +230,65 @@ export const galleryImages= [
   "/Base.jpg"
  ];
  
+ // galleryData.js
+
+// galleryEvents.js
+export const galleryEvents = [
+  {
+    id: 1,
+    title: "India Blockchain Week",
+    description: "Join us for a deep dive into decentralized finance, NFTs, and Web3 technologies. Network with blockchain experts and innovators during this immersive event.",
+    image: "g2.jpeg",
+    className: "md:col-span-2",
+  },
+  {
+    id: 2,
+    title: "Avalanche Game Night",
+    description: "A fun-filled gaming night featuring play-to-earn games built on Avalanche. Experience the future of decentralized gaming and connect with other enthusiasts.",
+    image: "g1.jpeg",
+    className: "col-span-1",
+  },
+  {
+    id: 3,
+    title: "Ethereum Connect Meetup",
+    description: "Discuss smart contracts, dApps, and the latest innovations in the Ethereum ecosystem with developers and experts at this exciting meetup.",
+    image: "g3.jpeg",
+    className: "col-span-1",
+  },
+  {
+    id: 4,
+    title: "Lucknow DAO Meetup",
+    description: "A gathering for Web3 developers, blockchain startups, and enthusiasts in Lucknow. Share ideas, collaborate, and explore the future of decentralized technology together.",
+    image: "g5.jpeg",
+    className: "md:col-span-2",
+  },
+  {
+    id: 5,
+    title: "India Blockchain Week",
+    description: "Join us for a deep dive into decentralized finance, NFTs, and Web3 technologies. Network with blockchain experts and innovators during this immersive event.",
+    image: "g6.jpeg",
+    className: "md:col-span-2",
+  },
+  {
+    id: 6,
+    title: "Avalanche Game Night",
+    description: "A fun-filled gaming night featuring play-to-earn games built on Avalanche. Experience the future of decentralized gaming and connect with other enthusiasts.",
+    image: "g4.jpeg",
+    className: "col-span-1",
+  },
+  {
+    id: 7,
+    title: "Ethereum Connect Meetup",
+    description: "Discuss smart contracts, dApps, and the latest innovations in the Ethereum ecosystem with developers and experts at this exciting meetup.",
+    image: "g8.jpeg",
+    className: "col-span-1",
+  },
+  {
+    id: 8,
+    title: "Lucknow DAO Meetup",
+    description: "A gathering for Web3 developers, blockchain startups, and enthusiasts in Lucknow. Share ideas, collaborate, and explore the future of decentralized technology together.",
+    image: "g7.jpeg",
+    className: "md:col-span-2",
+  },
+  // Add more events as needed
+];
