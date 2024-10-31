@@ -25,13 +25,13 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   };
 
   return (
-    <div className="w-full h-full p-10 grid grid-cols-1 md:grid-cols-3  max-w-7xl mx-auto gap-4 relative">
+    <div className="w-full h-full md:p-10 grid grid-cols-1 md:grid-cols-3  max-w-7xl mx-auto gap-4 relative">
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "h-96")}>
           <motion.div
-           initial={{ opacity: 0, translateX:"100%" }}
-           whileInView={{ opacity: 1 ,translateX:0 , transitionDuration:"500ms", msTransitionTimingFunction:"ease"}}
-           viewport={{ once: false, }}
+           initial={{ opacity: 0, x:30 }}
+           whileInView={{ opacity: 1 ,x:0 , transitionDuration:"500ms", msTransitionTimingFunction:"linear"}}
+           viewport={{ once: true, margin: "0px 0px -30% 0px" }}
 
           
             onClick={() => handleClick(card)}

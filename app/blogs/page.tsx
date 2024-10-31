@@ -1,14 +1,12 @@
-import { FloatingNav } from "@/components/ui/FloatingNav";
-import { galleryImages, navItems } from "@/data";
-import React from "react";
 import Footer from "@/components/Footer";
-import { LayoutGrid } from "@/components/ui/LayoutGrid";
+import { BlogsGrid, BlogsGridItem } from "@/components/ui/BlogsGrid";
+import { FloatingNav } from "@/components/ui/FloatingNav";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
-import { galleryEvents } from "@/data"; // Import event data
-import "./gallery.css";
+import { daoBlogs,  navItems } from "@/data";
+import React from "react";
 
-function Gallery() {
+export default function page() {
   return (
     <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       {/* Spotlights for background effect */}
@@ -31,42 +29,31 @@ function Gallery() {
         </h2>
         <TextGenerateEffect
           className="text-center text-[40px] md:text-5xl lg:text-6xl text-white"
-          words="Gallery of Lucknow DAO Events"
+          words="Web3 Nexus in Lucknow"
         />
         <p className="text-center text-sm md:text-lg lg:text-2xl text-neutral-300 mt-4">
           Browse our collection of decentralized events and moments, where
           blockchain meets collaboration.
         </p>
       </div>
+      <FloatingNav navItems={navItems} />
 
-      {/* Gallery Layout */}
-      <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
-        <div className=" py-2 w-full text-center">
-          <LayoutGrid
-            cards={galleryEvents.map(event => ({
-              id: event.id,
-              content: (
-                <div>
-                  <p className="font-bold md:text-4xl text-xl text-white">
-                    {event.title}
-                  </p>
-                  <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                    {event.description}
-                  </p>
-                </div>
-              ),
-              className: event.className,
-              thumbnail: event.image,
-            }))}
+      <BlogsGrid className="w-full py-20">
+        {daoBlogs.map((item, i) => (
+          <BlogsGridItem
+            id={item.id}
+            key={i}
+            title={item.title}
+            description={item.description}
+            className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+            img={item.image}
+            category={item.category}
+            readTime={item.readTime}
+            author={item.author}
           />
-          
-        </div>
-
-        <Footer />
-      </div>
+        ))}
+      </BlogsGrid>
+      <Footer/>
     </main>
   );
 }
-
-export default Gallery;

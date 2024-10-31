@@ -1,0 +1,100 @@
+/* Global container for blog content */
+.blog-content {
+  font-family: "Inter", sans-serif;
+  color: #e0e0e0; /* light gray text color */
+  line-height: 1.8;
+  /* background-color: #1a1a1a; dark background */
+  /* padding: 1.5rem; */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Section headers */
+.blog-content h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #f5f5f5; /* slightly lighter for headers */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #4136dc; /* accent color for headers */
+  line-height: normal;
+  padding-bottom: 0.3rem;
+}
+
+
+/* Paragraph text */
+.blog-content p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #d4d4d4; /* softer gray for paragraphs */
+}
+
+/* Lists styling */
+.blog-content ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+  color: #c5c5c5; /* muted gray for list items */
+}
+
+.blog-content li strong {
+  color: #7a73db; /* accent color */
+  font-weight: 600;
+}
+
+/* Image styling */
+.blog-content img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+/* Code block styling */
+.blog-content code {
+  background-color: #2d2d2d;
+  color: #e5e5e5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: "Courier New", monospace;
+}
+
+/* Add padding and emphasis to important sections */
+.blog-content section {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.blog-content section h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Enhance call-to-action paragraphs */
+.blog-content .cta {
+  background: #4136dc;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+/* Blockquote styling */
+.blog-content blockquote {
+  font-size: 1.2rem;
+  color: #b3b3b3;
+  border-left: 4px solid #544add;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
