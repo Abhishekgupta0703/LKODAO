@@ -79,7 +79,7 @@ export const BentoGridItem = ({
               className={cn(
                 imgClassName,
                 "object-cover object-center ",
-                `${id == 1 && "w-3/4 mx-auto mt-10"}`
+                `${id == 1 && "sm:w-3/4 mx-auto sm:mt-10 object-contain object-top mt-5 w-56"}`
               )}
             />
           )}
