@@ -34,7 +34,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col-reverse justify-between items-center gap-8">
+      <div className="flex m-16 md:flex-row flex-col-reverse justify-between items-center gap-8">
         <div className="md:text-base text-sm md:font-normal font-light cursor-pointer z-20">
           Made with ❤️ by{" "}
           <a
