@@ -468,7 +468,7 @@ export const daoBlogs = [
     id: 2,
     title: "The Rise of Decentralized Finance (DeFi): What You Need to Know",
     description:
-      ` <p>
+      `<p>
       Decentralized Finance, or DeFi, has taken the world by storm, reshaping how we interact with financial systems by removing intermediaries and putting users in control. By leveraging blockchain technology, DeFi enables financial services such as lending, borrowing, and trading to function without banks or centralized entities. In this article, we’ll explore the basics of DeFi, its benefits, key risks, and some essential tools you should know about in the DeFi ecosystem.
     </p>
   

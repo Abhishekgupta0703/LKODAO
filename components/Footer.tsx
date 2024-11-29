@@ -47,7 +47,7 @@ const Footer = () => {
           </a>{" "}
           &{" "}
           <a
-            href="https://Abhishekgupta.github.io/Portfolio"
+            href="https://Abhishekgupta0703.github.io/Portfolio"
             className="text-blue-500 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
