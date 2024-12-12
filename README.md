@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lucknow DAO
 
-## Getting Started
+Welcome to **Lucknow DAO**, a decentralized autonomous organization (DAO) initiative designed to empower communities and bring blockchain solutions to local problems. This project leverages the power of smart contracts and blockchain technology to create a transparent, efficient, and community-driven platform for decision-making and resource allocation.
 
-First, run the development server:
+## Links
+- **Beta Version:** [Beta Website](https://lucknowdao.netlify.app/)  
+- **Official Version:** [Official Website](https://lucknowdao.site/)
+## LucknowDAO's Vision
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The vision of Lucknow DAO is to:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Foster community collaboration and decision-making.
+- Enhance transparency and reduce administrative inefficiencies.
+- Promote blockchain technology for solving real-world challenges.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Smart Contract Governance:** Automated decision-making using decentralized smart contracts.
+- **Community Participation:** Inclusivity through token-based voting mechanisms.
+- **Transparency:** Immutable records of every decision and transaction.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Blockchain:** Smart contract implementation using Ethereum/Solidity.
+- **Frontend:** Next.js for an interactive user interface.
+- **Backend:** Node.js with Express for API services.
+- **Database:** MongoDB for storing user and governance-related metadata.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributors
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### **Abhishek Gupta**
 
-## Deploy on Vercel
+- Project Lead & Developer
+- [GitHub](https://github.com/Abhishekgupta0703)
+- [LinkedIn](https://www.linkedin.com/in/abhishekgupta0703)
+- [Twitter](https://twitter.com/ErAbhishek77)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Shashwat Chauhan**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Contributor & Collaborator
+- [GitHub](https://github.com/shashwat2002)
+- [LinkedIn](https://www.linkedin.com/in/shshwt)
+- [Twitter](https://twitter.com/shashwat_web3)
+
+## Acknowledgements
+
+Special thanks to the contributors and blockchain enthusiasts who made this project possible.
+
+---
+
